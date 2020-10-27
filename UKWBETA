@@ -1,0 +1,144 @@
+If S=1
+Then
+25 -> S
+Goto E
+End
+If S=25
+Then
+1 -> S
+Goto E
+End
+
+If S=2
+Then
+18 -> S
+Goto E
+End
+If S=18
+Then
+2 -> S
+Goto E
+End
+
+If S=3
+Then
+21 -> S
+Goto E
+End
+If S=21
+Then
+3 -> S
+Goto E
+End
+
+If S=4
+Then
+8 -> S
+Goto E
+End
+If S=8
+Then
+4 -> S
+Goto E
+End
+
+If S=5
+Then
+17 -> S
+Goto E
+End
+If S=17
+Then
+5 -> S
+Goto E
+End
+
+If S=6
+Then
+19 -> S
+Goto E
+End
+If S=19
+Then
+6 -> S
+Goto E
+End
+
+If S=7
+Then
+12 -> S
+Goto E
+End
+If S=12
+Then
+7 -> S
+Goto E
+End
+
+If S=9
+Then
+16 -> S
+Goto E
+End
+If S=16
+Then
+9 -> S
+Goto E
+End
+
+If S=10
+Then
+24 -> S
+Goto E
+End
+If S=24
+Then
+10 -> S
+Goto E
+End
+
+If S=11
+Then
+14 -> S
+Goto E
+End
+If S=14
+Then
+11 -> S
+Goto E
+End
+
+If S=13
+Then
+15 -> S
+Goto E
+End
+If S=15
+Then
+13 -> S
+Goto E
+End
+
+If S=20
+Then
+26 -> S
+Goto E
+End
+If S=26
+Then
+20 -> S
+Goto E
+End
+
+If S=22
+Then
+23 -> S
+Goto E
+End
+If S=23
+Then
+22 -> S
+Goto E
+End
+
+Lbl E

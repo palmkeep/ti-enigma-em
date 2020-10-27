@@ -1,0 +1,14 @@
+Lbl A
+If X>=26
+Then
+X-26 -> X
+Goto A
+End
+X+S -> N
+
+Lbl B
+If N>26
+Then
+N-26 -> N
+Goto B
+End

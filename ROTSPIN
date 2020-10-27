@@ -1,0 +1,13 @@
+Z+1 -> Z
+
+If Z=26
+Then
+0 -> Z
+Y+1 -> Y
+End
+
+If Y=26
+Then
+0 -> Y
+X+1 -> X
+End

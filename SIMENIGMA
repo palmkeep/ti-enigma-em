@@ -1,0 +1,153 @@
+ClrHome
+Disp " "
+Disp "Rotor offset"
+Input "Third rotor x=", X
+Input "Second rotor y=", Y
+Input "First rotor z=", Z
+Disp "Correct?"
+
+Pause
+ClrHome
+
+Menu(
+    "Select rotor order",
+    "ZI YII XIII", 1,
+    "Z1 YIII XII", 2,
+    "ZII YI XIII", 3,
+    "ZII YIII XI", 4,
+    "ZIII YI XII", 5,
+    "ZIII YII XI", 6
+    )
+
+Lbl 1
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORI
+Disp S
+prgmROTOFF2
+prgmROTORII
+Disp S
+prgmROTOFF3
+prgmROTORIII
+Disp S
+prgmUKWBETA
+1->R
+Disp S
+prgmROTOFF3
+prgmROTORIII
+Disp S
+prgmROTOFF2
+prgmROTORII
+Disp S
+prgmROTOFF1
+prgmROTORI
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 1
+
+Lbl 2
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORI
+prgmROTOFF2
+prgmROTORIII
+prgmROTOFF3
+prgmROTORII
+prgmUKWBETA
+1->R
+prgmROTOFF3
+prgmROTORII
+prgmROTOFF2
+prgmROTORIII
+prgmROTOFF1
+prgmROTORI
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 2
+
+Lbl 3
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORII
+prgmROTOFF2
+prgmROTORI
+prgmROTOFF3
+prgmROTORIII
+prgmUKWBETA
+1->R
+prgmROTOFF3
+prgmROTORIII
+prgmROTOFF2
+prgmROTORI
+prgmROTOFF1
+prgmROTORII
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 3
+
+Lbl 4
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORII
+prgmROTOFF2
+prgmROTORIII
+prgmROTOFF3
+prgmROTORI
+prgmUKWBETA
+1->R
+prgmROTOFF3
+prgmROTORI
+prgmROTOFF2
+prgmROTORIII
+prgmROTOFF1
+prgmROTORII
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 4
+
+Lbl 5
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORIII
+prgmROTOFF2
+prgmROTORI
+prgmROTOFF3
+prgmROTORII
+prgmUKWBETA
+1->R
+prgmROTOFF3
+prgmROTORII
+prgmROTOFF2
+prgmROTORI
+prgmROTOFF1
+prgmROTORIII
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 5
+
+Lbl 6
+0->R
+Input "Letter=", S
+prgmROTOFF1
+prgmROTORIII
+prgmROTOFF2
+prgmROTORII
+prgmROTOFF3
+prgmROTORI
+prgmUKWBETA
+1->R
+prgmROTOFF3
+prgmROTORI
+prgmROTOFF2
+prgmROTORII
+prgmROTOFF1
+prgmROTORIII
+Disp "Encodes:", S
+prgmROTSPIN
+Goto 6
+

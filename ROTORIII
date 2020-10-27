@@ -1,0 +1,277 @@
+If R=1
+Then
+Goto R
+End
+
+If N=1
+Then
+S+1 -> S
+Goto O
+End
+If N=2
+Then
+S+2 -> S
+Goto O
+End
+If N=3
+Then
+S+3 -> S
+Goto O
+End
+If N=4
+Then
+S+4 -> S
+Goto O
+End
+If N=5
+Then
+S+5 -> S
+Goto O
+End
+If N=6
+Then
+S+6 -> S
+Goto O
+End
+If N=7
+Then
+S+22 -> S
+Goto O
+End
+If N=8
+Then
+S+8 -> S
+Goto O
+End
+If N=9
+Then
+S+9 -> S
+Goto O
+End
+If N=10
+Then
+S+10 -> S
+Goto O
+End
+If N=11
+Then
+S+13 -> S
+Goto O
+End
+If N=12
+Then
+S+10 -> S
+Goto O
+End
+If N=13
+Then
+S+13 -> S
+Goto O
+End
+If N=14
+Then
+S -> S
+Goto O
+End
+If N=15
+Then
+S+10 -> S
+Goto O
+End
+If N=16
+Then
+S+15 -> S
+Goto O
+End
+If N=17
+Then
+S+18 -> S
+Goto O
+End
+If N=18
+Then
+S+5 -> S
+Goto O
+End
+If N=19
+Then
+S+14 -> S
+Goto O
+End
+If N=20
+Then
+S+7 -> S
+Goto O
+End
+If N=21
+Then
+S+16 -> S
+Goto O
+End
+If N=22
+Then
+S+17 -> S
+Goto O
+End
+If N=23
+Then
+S+24 -> S
+Goto O
+End
+If N=24
+Then
+S+21 -> S
+Goto O
+End
+If N=25
+Then
+S+18 -> S
+Goto O
+End
+If N=26
+Then
+S+15 -> S
+Goto O
+End
+
+
+Lbl R
+
+If N=1
+Then
+S+19 -> S
+Goto O
+End
+If N=2
+Then
+S+25 -> S
+Goto O
+End
+If N=3
+Then
+S+5 -> S
+Goto O
+End
+If N=4
+Then
+S+24 -> S
+Goto O
+End
+If N=5
+Then
+S+11 -> S
+Goto O
+End
+If N=6
+Then
+S+23 -> S
+Goto O
+End
+If N=7
+Then
+S+12 -> S
+Goto O
+End
+If N=8
+Then
+S+22 -> S
+Goto O
+End
+If N=9
+Then
+S+8 -> S
+Goto O
+End
+If N=10
+Then
+S+21 -> S
+Goto O
+End
+If N=11
+Then
+S+10 -> S
+Goto O
+End
+If N=12
+Then
+S+20 -> S
+Goto O
+End
+If N=13
+Then
+S+9 -> S
+Goto O
+End
+If N=14
+Then
+S -> S
+Goto O
+End
+If N=15
+Then
+S+11 -> S
+Goto O
+End
+If N=16
+Then
+S+18 -> S
+Goto O
+End
+If N=17
+Then
+S+8 -> S
+Goto O
+End
+If N=18
+Then
+S+17 -> S
+Goto O
+End
+If N=19
+Then
+S+5 -> S
+Goto O
+End
+If N=20
+Then
+S+16 -> S
+Goto O
+End
+If N=21
+Then
+S+2 -> S
+Goto O
+End
+If N=22
+Then
+S+16 -> S
+Goto O
+End
+If N=23
+Then
+S+21 -> S
+Goto O
+End
+If N=24
+Then
+S+13 -> S
+Goto O
+End
+If N=25
+Then
+S+16 -> S
+Goto O
+End
+If N=26
+Then
+S+13 -> S
+Goto O
+End
+
+Lbl O
+If S>26
+Then
+S-26 -> S
+Goto O
+End
+
